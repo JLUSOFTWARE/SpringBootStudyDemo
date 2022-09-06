@@ -1,0 +1,34 @@
+server:
+  port: 8086
+
+# 给JavaBean注入属性的配置
+person:
+  name: CalvinHaynes
+  age: 3
+  happy: false
+  birth: 2000/01/01
+  email: 1006488386@qq.com
+  maps: {k1: v1, k2: v2}
+  lists:
+    - code
+    - girl
+    - music
+  dog:
+    name: belly
+    age: 3
+
+god:
+  name: Apollo
+  person:
+    name: Jackson
+    age: 21
+    happy: true
+    birth: 2000/01/01
+    maps: {k3: v3, k4: v4}
+    lists:
+      - code
+      - girl
+      - music
+    dog:
+      name: shitty
+      age: 5

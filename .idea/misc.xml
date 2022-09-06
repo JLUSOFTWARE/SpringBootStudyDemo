@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Demo1_HelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo2_JDBC_Druid/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo9_SpringSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo6_ThymeleafAndMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo3_TacoCloud_WebAPP/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo7_SpringBootStarter/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo8_SpringBootMyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo4_InjectionUsingYaml/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo5_StaticResourcesInjection/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

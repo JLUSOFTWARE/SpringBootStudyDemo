@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "top.calvinhaynes.config.DruidConfig",
+      "sourceMethod": "druidDataSource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "server.tomcat.max-http-header-size",
+      "type": "java.lang.String",
+      "description": "Description for server.tomcat.max-http-header-size."
+    },
+    {
+      "name": "server.tomcat.max-threads",
+      "type": "java.lang.String",
+      "description": "Description for server.tomcat.max-threads."
+    },
+    {
+      "name": "server.tomcat.remote-ip-header",
+      "type": "java.lang.String",
+      "description": "Description for server.tomcat.remote-ip-header."
+    },
+    {
+      "name": "spring.datasource.druid.type",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.druid.type."
+    }
+  ],
+  "hints": []
+}

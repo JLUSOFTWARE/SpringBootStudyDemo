@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/ssmintegration?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  #指定myBatis的核心配置文件与Mapper映射文件
+  mapper-locations: classpath:mapper/*.xml
+  # 注意：对应实体类的路径
+  type-aliases-package: top.calvinhaynes.demo8_springbootmybatis.pojo
+  configuration:
+    # 数据库下划线字段名自动映射到实体类的驼峰命名
+    map-underscore-to-camel-case: true
+
+

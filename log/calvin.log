@@ -1,0 +1,88 @@
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10001,procId-17} connected
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10002,procId-18} connected
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10003,procId-19} connected
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10004,procId-20} connected
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10005,procId-21} connected
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from spring_boot_test.table_test where id=?
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [1]
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [INTEGER]
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10005, pstmt-20000, rs-50000} query executed. 22.7838 millis. select * from spring_boot_test.table_test where id=?
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, level, create_time, delete_flag, extension]
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, zoe, 100,  2021-07-22 13:09:09, 1,  blabla]
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10005} closed
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10004} closed
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10003} closed
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10002} closed
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10001} closed
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10006,procId-24} connected
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10006, pstmt-20001} created. select * from spring_boot_test.table_test where id=?
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : [0]
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10006, pstmt-20001} Types : [INTEGER]
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10006, pstmt-20001, rs-50001} query executed. 2.1512 millis. select * from spring_boot_test.table_test where id=?
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} open
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} Header: [id, name, level, create_time, delete_flag, extension]
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} Result: [0, calvin, 80, 2021-07-26 12:09:09, 1, handsome]
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50001} closed
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10006} pool-connect
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10006, pstmt-20001} Parameters : [2]
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10006, pstmt-20001} Types : [INTEGER]
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10006, pstmt-20001, rs-50002} query executed. 1.5726 millis. select * from spring_boot_test.table_test where id=?
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} open
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} Header: [id, name, level, create_time, delete_flag, extension]
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10006, pstmt-20001, rs-50002} closed
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10006, pstmt-20001} clearParameters. 
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10006} pool-recycle
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10006} closed
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10007,procId-25} connected
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10007} pool-connect
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10007, pstmt-20002} created. select * from spring_boot_test.table_test where id=?
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10007, pstmt-20002} Parameters : [2]
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10007, pstmt-20002} Types : [INTEGER]
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10007, pstmt-20002, rs-50003} query executed. 5.3227 millis. select * from spring_boot_test.table_test where id=?
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50003} open
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50003} Header: [id, name, level, create_time, delete_flag, extension]
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50003} closed
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10007, pstmt-20002} clearParameters. 
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10007} pool-recycle
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10007} pool-connect
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10007, pstmt-20002} Parameters : [1]
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10007, pstmt-20002} Types : [INTEGER]
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10007, pstmt-20002, rs-50004} query executed. 1.9252 millis. select * from spring_boot_test.table_test where id=?
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} open
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} Header: [id, name, level, create_time, delete_flag, extension]
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} Result: [1, zoe, 100,  2021-07-22 13:09:09, 1,  blabla]
+[DEBUG][22-01-08][druid.sql.ResultSet]{conn-10007, pstmt-20002, rs-50004} closed
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10007, pstmt-20002} clearParameters. 
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10007} pool-recycle
+[DEBUG][22-01-08][druid.sql.Statement]{conn-10007, pstmt-20002} closed
+[DEBUG][22-01-08][druid.sql.Connection]{conn-10007} closed
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10001,procId-8} connected
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10002,procId-9} connected
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10003,procId-10} connected
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10004,procId-11} connected
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10005,procId-12} connected
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10005} pool-connect
+[DEBUG][22-01-15][druid.sql.Statement]{conn-10005, pstmt-20000} created. select * from spring_boot_test.table_test where id=?
+[DEBUG][22-01-15][druid.sql.Statement]{conn-10005, pstmt-20000} Parameters : [1]
+[DEBUG][22-01-15][druid.sql.Statement]{conn-10005, pstmt-20000} Types : [INTEGER]
+[DEBUG][22-01-15][druid.sql.Statement]{conn-10005, pstmt-20000, rs-50000} query executed. 40.268 millis. select * from spring_boot_test.table_test where id=?
+[DEBUG][22-01-15][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} open
+[DEBUG][22-01-15][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Header: [id, name, level, create_time, delete_flag, extension]
+[DEBUG][22-01-15][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} Result: [1, zoe, 100,  2021-07-22 13:09:09, 1,  blabla]
+[DEBUG][22-01-15][druid.sql.ResultSet]{conn-10005, pstmt-20000, rs-50000} closed
+[DEBUG][22-01-15][druid.sql.Statement]{conn-10005, pstmt-20000} clearParameters. 
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10005} pool-recycle
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10001} closed
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10002} closed
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10003} closed
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10004} closed
+[DEBUG][22-01-15][druid.sql.Statement]{conn-10005, pstmt-20000} closed
+[DEBUG][22-01-15][druid.sql.Connection]{conn-10005} closed

@@ -1,0 +1,64 @@
+##选择哪一个环境的配置
+##这里可以在每个环境配置redis，数据库（mysql），消息（kafka）等相关的组件的配置
+#spring:
+#  profiles:
+#    active: test
+#
+##文档块区分为三个---
+#---
+#
+#server:
+#  port: 8083
+#spring:
+#  profiles: dev #配置环境的名称
+#
+##文档块区分为三个---
+#---
+#
+#server:
+#  port: 8084
+#spring:
+#  profiles: prod  #配置环境的名称
+#
+##文档块区分为三个---
+#---
+
+server:
+  port: 8085
+  servlet:
+    #配置项目的访问路径
+    context-path: /calvinhaynes
+#spring:
+#  profiles: test  #配置环境的名称
+
+# 给JavaBean注入属性的配置
+person:
+  name: CalvinHaynes
+  age: 3
+  happy: false
+  birth: 2000/01/01
+  email: 1006488386@qq.com
+  maps: {k1: v1, k2: v2}
+  lists:
+    - code
+    - girl
+    - music
+  dog:
+    name: belly
+    age: 3
+
+god:
+  name: Apollo
+  person:
+    name: Jackson
+    age: 21
+    happy: true
+    birth: 2000/01/01
+    maps: {k3: v3, k4: v4}
+    lists:
+      - code
+      - girl
+      - music
+    dog:
+      name: shitty
+      age: 5

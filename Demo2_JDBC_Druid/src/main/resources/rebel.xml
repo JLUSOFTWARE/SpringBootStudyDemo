@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  This is the JRebel configuration file. It maps the running application to your IDE workspace, enabling JRebel reloading for this project.
+  Refer to https://manuals.jrebel.com/jrebel/standalone/config.html for more information.
+-->
+<application generated-by="intellij" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com https://update.zeroturnaround.com/jrebel/rebel-2_3.xsd">
+
+	<id>Demo2_JDBC_Druid</id>
+
+	<classpath>
+		<dir name="D:/OpenSource/My Repository/My Repository for Github/Spring_Boot_Application/Demo2_JDBC_Druid/target/classes">
+		</dir>
+	</classpath>
+
+</application>

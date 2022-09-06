@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Demo1_HelloWorld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo2_JDBC_Druid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo3_TacoCloud_WebAPP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo4_InjectionUsingYaml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo5_StaticResourcesInjection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo6_ThymeleafAndMVC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo7_SpringBootStarter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo7_SpringBootStarter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo8_SpringBootMyBatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo9_SpringSecurity/src/main/java" charset="UTF-8" />
+    <file url="file://$APPLICATION_HOME_DIR$/jbr/bin/src/main/java" charset="UTF-8" />
+    <file url="file://$APPLICATION_HOME_DIR$/jbr/bin/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

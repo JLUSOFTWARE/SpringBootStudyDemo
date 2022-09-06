@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Demo6_ThymeleafAndMVC" />
+        <module name="Demo8_SpringBootMyBatis" />
+        <module name="Demo4_InjectionUsingYaml" />
+        <module name="study-client-starter" />
+        <module name="Demo5_StaticResourcesInjection" />
+        <module name="jdbc" />
+        <module name="Demo3_TacoCloud_WebAPP" />
+        <module name="Demo1_HelloWorld" />
+        <module name="Demo9_SpringSecurity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Demo1_HelloWorld" target="1.7" />
+      <module name="Demo3_TacoCloud_WebAPP" target="1.8" />
+      <module name="Demo4_InjectionUsingYaml" target="1.8" />
+      <module name="Demo5_StaticResourcesInjection" target="1.8" />
+      <module name="Demo6_ThymeleafAndMVC" target="1.8" />
+      <module name="Demo7_SpringBootStarter" target="1.8" />
+      <module name="Demo8_SpringBootMyBatis" target="1.8" />
+      <module name="Demo9_SpringSecurity" target="1.8" />
+      <module name="jdbc" target="1.8" />
+      <module name="study-client-starter" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Demo1_HelloWorld" options="-parameters" />
+      <module name="Demo3_TacoCloud_WebAPP" options="-parameters" />
+      <module name="Demo4_InjectionUsingYaml" options="-parameters" />
+      <module name="Demo5_StaticResourcesInjection" options="-parameters" />
+      <module name="Demo6_ThymeleafAndMVC" options="-parameters" />
+      <module name="Demo8_SpringBootMyBatis" options="-parameters" />
+      <module name="Demo9_SpringSecurity" options="-parameters" />
+      <module name="jdbc" options="-parameters" />
+    </option>
+  </component>
+</project>

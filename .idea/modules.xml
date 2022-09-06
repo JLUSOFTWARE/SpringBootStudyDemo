@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Demo1_HelloWorld/Demo1_HelloWorld.iml" filepath="$PROJECT_DIR$/Demo1_HelloWorld/Demo1_HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo3_TacoCloud_WebAPP/Demo3_TacoCloud_WebAPP.iml" filepath="$PROJECT_DIR$/Demo3_TacoCloud_WebAPP/Demo3_TacoCloud_WebAPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo4_InjectionUsingYaml/Demo4_InjectionUsingYaml.iml" filepath="$PROJECT_DIR$/Demo4_InjectionUsingYaml/Demo4_InjectionUsingYaml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo5_StaticResourcesInjection/Demo5_StaticResourcesInjection.iml" filepath="$PROJECT_DIR$/Demo5_StaticResourcesInjection/Demo5_StaticResourcesInjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo6_ThymeleafAndMVC/Demo6_ThymeleafAndMVC.iml" filepath="$PROJECT_DIR$/Demo6_ThymeleafAndMVC/Demo6_ThymeleafAndMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo7_SpringBootStarter/Demo7_SpringBootStarter.iml" filepath="$PROJECT_DIR$/Demo7_SpringBootStarter/Demo7_SpringBootStarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo8_SpringBootMyBatis/Demo8_SpringBootMyBatis.iml" filepath="$PROJECT_DIR$/Demo8_SpringBootMyBatis/Demo8_SpringBootMyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo9_SpringSecurity/Demo9_SpringSecurity.iml" filepath="$PROJECT_DIR$/Demo9_SpringSecurity/Demo9_SpringSecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring_Boot_Application.iml" filepath="$PROJECT_DIR$/.idea/Spring_Boot_Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo2_JDBC_Druid/jdbc.iml" filepath="$PROJECT_DIR$/Demo2_JDBC_Druid/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo7_SpringBootStarter/study-client-starter/study-client-starter.iml" filepath="$PROJECT_DIR$/Demo7_SpringBootStarter/study-client-starter/study-client-starter.iml" />
+    </modules>
+  </component>
+</project>

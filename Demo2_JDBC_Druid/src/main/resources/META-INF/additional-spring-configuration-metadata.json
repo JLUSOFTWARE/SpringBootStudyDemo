@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.druid.type",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.druid.type."
+    },
+    {
+      "name": "server.tomcat.remote-ip-header",
+      "type": "java.lang.String",
+      "description": "Description for server.tomcat.remote-ip-header."
+    },
+    {
+      "name": "server.tomcat.max-threads",
+      "type": "java.lang.String",
+      "description": "Description for server.tomcat.max-threads."
+    },
+    {
+      "name": "server.tomcat.max-http-header-size",
+      "type": "java.lang.String",
+      "description": "Description for server.tomcat.max-http-header-size."
+    }
+  ] }
